@@ -8,6 +8,7 @@ uses
   System.SysUtils;
  
 begin
+  var test: Integer;
   try
     WriteLn('Hello world!');
     ReadLn;
