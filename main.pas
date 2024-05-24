@@ -11,6 +11,8 @@ begin
   var test: Integer;
   try
     WriteLn('Hello world!');
+    test := 5;
+    ShowMessage(test.ToString);
     ReadLn;
   except
     on E: Exception do
