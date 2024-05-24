@@ -14,6 +14,10 @@ begin
     test := 5;
     ShowMessage(test.ToString);
     ReadLn;
+
+    for var i: Integer in [1, 5, 7] do begin
+      ShowMessage(i.ToString);
+    end;
   except
     on E: Exception do
       Writeln(E.ClassName, ': ', E.Message);
