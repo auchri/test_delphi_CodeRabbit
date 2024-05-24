@@ -18,6 +18,12 @@ begin
     for var i: Integer in [1, 5, 7] do begin
       ShowMessage(i.ToString);
     end;
+
+    var xy: Integer := 5;
+    xy := 6;
+
+    var b1: Boolean := 7;
+    ShowMessage(b1.ToString);
   except
     on E: Exception do
       Writeln(E.ClassName, ': ', E.Message);
