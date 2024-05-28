@@ -24,6 +24,10 @@ begin
 
     var b1: Boolean := 7;
     ShowMessage(b1.ToString);
+
+    asm
+    nop;
+    end;
   except
     on E: Exception do
       Writeln(E.ClassName, ': ', E.Message);
