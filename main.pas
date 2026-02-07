@@ -9,7 +9,7 @@ uses
  
 begin
   try
-    var test: Integer := '6';
+    var test: Integer := '7';
     WriteLn('Hello world!');
     ReadLn;
   except
