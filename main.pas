@@ -9,6 +9,7 @@ uses
  
 begin
   try
+    var test: Integer := '6';
     WriteLn('Hello world!');
     ReadLn;
   except
